@@ -1,0 +1,52 @@
+@media screen and (max-width: 958px) {
+    header {
+        display: inline-block;
+    }
+ 
+    #navig {
+        display: inline-block;
+    }
+    #navig a {
+       margin: 0% 15px;
+       display: inline-block;
+       font-size: small;
+    }
+    header nav{
+       display: flex;
+       justify-content: center;
+    }
+    body{
+       margin: 0px;
+       padding: 0px;
+       font-size: 0.8rem;
+    }
+    .big {
+       font-size: 1rem;
+       margin-left: 40px;
+    }
+    #i{
+       font-size: 1.3rem;
+       padding: 0% 2%;
+    }
+    .out{
+       font-size: 2.5rem;
+       margin-left: 40px;
+    } 
+    header div p
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .conatin {
+        margin-top: 20px;
+    }
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        background-size: contain;
+        width: 100%;
+        margin: -22px;
+    }
+ }
