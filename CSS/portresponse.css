@@ -1,4 +1,12 @@
-
+/* @media screen and (max-width:615px)
+{
+   header{
+    height: 14vh;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px ;
+   }
+} */
 @media screen and (max-width: 695px) {
    header {
        display: inline-block;
@@ -125,27 +133,84 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin: 0px 10px;
+      
   }
   #navig a {
-   margin: 5px 5px;
-   
-      font-size: small;
+      margin: 0px 10px;
+      font-size: 10px;
+      padding: 6px 9px;
   }
   #bigcontain{
    margin: 0px;
    display:flex ;
    justify-content: space-between;
   }
+  .container
+   {
+      width: 10em;
+      height: 42%;
+      border: 0px solid transparent;
+      border-radius: 30px;
+      box-shadow: 0px 10px 10px 10px rgb(232, 228, 228);
+   }
+   .profile img:hover{
+      transition:  0.5s ease-in-out ;
+      width: 6em;
+      height: 6em;
+      padding: 40px;
+      border: 0px solid transparent;
+      border-radius: 50%;
+   }
+   #bigcontain{
+      display: flex;
+      justify-content: space-evenly;
+      /* align-items: center; */
+   }
+   .info{
+      margin-top: 20px;
+   }
+   .profile{
+      height: 8em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      border: 0px solid transparent;
+      border-radius: 20px 20px 0px 0px;
+  }
+  .profile img
+  {
+      width: 5em;
+      height: 5em;
+      padding: 40px;
+      border: 0px solid transparent;
+      border-radius: 50%;
+  }
+   .links{
+      height: 5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(19, 124, 125);
+      border: 0px solid transparent;
+      border-radius:  0px 0px 20px 20px;
+  }
+  .links a
+  {
+   padding: 0 0.5em;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-size: 1.5em;
+   }
   .big {
-   
+   font-size: 0.6rem;
    margin-left: 20px;
 }
 .out{
-   
+   font-size: 2.2rem;
    margin-left: 20px;
 } 
 footer{
-   width: 100%;
-}
+   width: 100vw;
+   }  
 }
