@@ -1,12 +1,4 @@
-/* @media screen and (max-width:615px)
-{
-   header{
-    height: 14vh;
-    display: flex;
-    justify-content:space-between;
-    padding: 10px ;
-   }
-} */
+
 @media screen and (max-width: 695px) {
    header {
        display: inline-block;
@@ -44,7 +36,7 @@
    .container
    {
       width: 13em;
-      height: 42%;
+      height: 13em;
       border: 0px solid transparent;
       border-radius: 30px;
       box-shadow: 0px 10px 10px 10px rgb(232, 228, 228);
@@ -148,7 +140,7 @@
   .container
    {
       width: 10em;
-      height: 42%;
+      height: 13em;
       border: 0px solid transparent;
       border-radius: 30px;
       box-shadow: 0px 10px 10px 10px rgb(232, 228, 228);
