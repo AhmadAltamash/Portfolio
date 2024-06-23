@@ -40,23 +40,54 @@
         align-items: center;
     }
     .conatin {
-        margin-top: 20px;
-    }
+      margin-top: 20px;
+      padding: 20px;
+      }
+    
     .contact-container {
         flex-direction: column;
         height: auto;
         background-size: contain;
         width: 100%;
-        margin: -22px;
     }
  }
- @media screen and (max-width: 420px) {
+ @media screen and (max-width:937px)
+{
    header {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
-      margin-top: 10px;
+  }
+  #navig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+  }
+  #navig a {
+      margin: 0px 15px;
+      font-size: 14px;
+      padding: 6px 9px;
+  }
+}
+ @media screen and (max-width: 537px) {
+   header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  #navig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+  }
+  #navig a {
+      margin: 0px 8px;
+      font-size: 9px;
+      padding: 6px 9px;
   }
   .big
   {
@@ -69,18 +100,11 @@
       justify-content: center;
       align-items: center;
   }
-  #navig {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      
-  }
-  #navig a {
-      margin: 0px 10px;
-      font-size: 10px;
-      padding: 6px 9px;
-  }
+  .conatin {
+   padding: 20px;
+   }
   footer{
+   height: 6vh;
    width: 100vw;
    }  
 }
