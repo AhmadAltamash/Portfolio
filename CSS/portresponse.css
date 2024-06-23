@@ -24,14 +24,14 @@
    }
    .big {
       font-size: 0.9rem;
-      margin-left: 30px;
+      /* margin-left: 30px; */
    }
    #i{
       font-size: 1.3rem;
    }
    .out{
       font-size: 2.5rem;
-      margin-left: 30px;
+      /* margin-left: 30px; */
    } 
    .container
    {
@@ -40,24 +40,18 @@
       align-items: center;
    }
    #bigcontain{
-      display: flex;
-      justify-content: space-evenly;
-      /* align-items: center; */
+      display:flex ;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
    }
-   .info{
-      margin-top: 20px;
-   }
-   section{
-      height: 30vh;
-   }
+   
    #para
    {
       display: inline;
       font-size: 20px;
    }
-   #para p{
-      margin: 20px ;
-   }
+   
 }
 @media screen and (max-width: 1230px)
 {
@@ -70,7 +64,7 @@
       margin: 20px ;
    }
 }
-@media screen and (max-width: 420px)
+@media screen and (max-width:937px)
 {
    header {
       display: flex;
@@ -85,14 +79,37 @@
       
   }
   #navig a {
-      margin: 0px 10px;
-      font-size: 10px;
+      margin: 0px 15px;
+      font-size: 14px;
+      padding: 6px 9px;
+  }
+}
+@media screen and (max-width: 585px)
+{
+   header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  #navig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+  }
+  #navig a {
+      margin: 0px 8px;
+      font-size: 9px;
       padding: 6px 9px;
   }
   #bigcontain{
    margin: 0px;
    display:flex ;
-   justify-content: space-between;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
   }
   .container
    {
@@ -100,23 +117,34 @@
       justify-content: center;
       align-items: center;
    }
-   #bigcontain{
-      display: flex;
-      justify-content: space-evenly;
-      /* align-items: center; */
-   }
    .info{
-      margin-top: 20px;
+      width: 50%;
+      /* margin-top: 10px; */
    }
   .big {
    font-size: 0.6rem;
-   margin-left: 20px;
+   /* margin-left: 20px; */
+}
+#bigcontain #para p{
+   margin: 10px 0px;
+}
+#para{
+   width: 80%;
 }
 .out{
    font-size: 2.2rem;
-   margin-left: 20px;
+   /* margin-left: 20px; */
 } 
 footer{
-   width: 100vw;
+   width: 100%;
    }  
+}
+@media screen and (max-width: 1025px)
+{
+   #bigcontain
+   {
+      display: flex;
+      align-items: center;
+      margin-top: 0%;
+   }
 }
