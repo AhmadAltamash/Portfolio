@@ -57,6 +57,7 @@ body{
     linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
       #282828;
   background-size: 40px 60px;
+  color: white;
 }
 header{
     color: rgb(255, 255, 255);
@@ -243,12 +244,11 @@ ul {
     width: 75%;
     font-size: 25px;
     margin-top: 3%;
-    margin-right: 3%;
 }
 #para p
 {
   color: white;
-    margin: 0px 0px 20px 50px ;
+  margin: 0px 0px 20px 30px ;
 }
 h3{
   color: white;
@@ -263,13 +263,54 @@ h3{
   width: 230px;
   height: 130px;
   border-radius: 30px;
-  background: grey;
-  box-shadow: 8px 8px 23px rgb(90, 90, 90),
-  -8px -8px 23px rgb(90, 90, 90);
+  background: rgba(128, 128, 128, 0.19);
+  box-shadow: 8px 8px 23px rgba(90, 90, 90, 0.468),
+  -8px -8px 23px rgba(90, 90, 90, 0.471);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+.b1 {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: rgba(49, 126, 102, 0.219);
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.b2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.15em;
+  height: 2.5em;
+  background-color: #21212100;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+.b2:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+.b2:not(hover) {
+  transition: all 1s;
+}
+.skill
+{
+  margin: 20px 0px 20px 20px;
+   
 }
 footer{
     width: 100%;
