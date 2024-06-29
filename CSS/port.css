@@ -307,10 +307,17 @@ h3{
 .b2:not(hover) {
   transition: all 1s;
 }
+.space{
+  height: 150px;
+  width: 100%;
+}
 .skill
 {
-  margin: 20px 0px 20px 20px;
-   
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 3;
 }
 footer{
     width: 100%;
