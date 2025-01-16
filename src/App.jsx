@@ -1,10 +1,11 @@
 import React from 'react'
-import { Navbar } from './sections'
+import { Hero, Navbar } from './sections'
 
 const App = () => {
   return (
     <main className='max-w-7xl mx-auto'>
       <Navbar/>
+      <Hero/>
     </main>
   )
 }
