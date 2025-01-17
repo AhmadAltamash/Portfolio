@@ -1,6 +1,6 @@
 import { PerspectiveCamera } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { CanvasLoader, HackerRoom, ReactLogo, Target } from "../../components"
+import { CanvasLoader, Cube, HackerRoom, ReactLogo, Rings, Target } from "../../components"
 import { Suspense } from "react"
 import { useMediaQuery } from "react-responsive"
 import { calculateSizes } from "../../constants"
@@ -36,6 +36,8 @@ const Hero = () => {
                     <group>
                         <Target position={sizes.targetPosition}/>
                         <ReactLogo position={sizes.reactLogoPosition}/>
+                        <Cube position={sizes.cubePosition}/>
+                        <Rings position={sizes.ringPosition}/>
                     </group>
 
                     <ambientLight intensity={1}/>
