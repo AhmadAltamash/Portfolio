@@ -1,6 +1,6 @@
 import { PerspectiveCamera } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { CanvasLoader, Cube, HackerRoom, ReactLogo, Rings, Target } from "../../components"
+import { Button, CanvasLoader, Cube, HackerRoom, HeroCamera, ReactLogo, Rings, Target } from "../../components"
 import { Suspense } from "react"
 import { useMediaQuery } from "react-responsive"
 import { calculateSizes } from "../../constants"
@@ -27,11 +27,13 @@ const Hero = () => {
 
                     <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
 
-                    <HackerRoom 
-                    position={sizes.deskPosition}
-                    rotation={[0, -Math.PI, 0]}
-                    scale={sizes.deskScale}
-                    />
+                    <HeroCamera isMobile={isMobile}>
+                        <HackerRoom 
+                        position={sizes.deskPosition}
+                        rotation={[0, -Math.PI, 0]}
+                        scale={sizes.deskScale}
+                        />
+                    </HeroCamera>
 
                     <group>
                         <Target position={sizes.targetPosition}/>
@@ -45,6 +47,12 @@ const Hero = () => {
 
                 </Suspense>
             </Canvas>
+        </div>
+        <div className="absolute bottom-7 left--0 right-0 w-full z-10 c-space">
+            <a href="#contact" className="w-fit">
+                <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm: min-w-96"/>
+            </a>
+
         </div>
     </section>
   )
