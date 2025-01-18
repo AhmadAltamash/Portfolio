@@ -23,6 +23,11 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='col-span-1'>
+
+            </div>
+
         </div>
     </section>
   )
