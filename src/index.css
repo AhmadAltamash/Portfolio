@@ -6,6 +6,7 @@
 
 * {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 body {
@@ -148,6 +149,14 @@ body {
   /*  footer */
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
   }
 }
 
