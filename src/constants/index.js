@@ -58,24 +58,24 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'VC-Room - Video Chat Application',
+      desc: 'VC-Room is a cutting-edge video conferencing platform, offering seamless and secure online meeting experiences.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built with the latest Next.js and TypeScript, a video-conferencing room, widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.',
+      href: 'https://vc-room-seven.vercel.app/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        backgroundColor: '#13202F',
+        border: '0.2px solid #03101A',
+        boxShadow: '0px 0px 60px 0px #13202F',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: '/assets/spotlight2.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/nextjs.png',
         },
         {
           id: 2,
@@ -89,8 +89,13 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'GetStream.io',
+          path: '/assets/getStream.png',
+        },
+        {
+          id: 5,
+          name: 'ShadCn',
+          path: '/assets/shadcnUI.png',
         },
       ],
     },

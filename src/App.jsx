@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Hero, Navbar } from './sections'
+import { About, Hero, Navbar, Projects } from './sections'
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Projects/>
     </main>
   )
 }

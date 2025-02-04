@@ -33,7 +33,7 @@ const About = () => {
                     <img src="/assets/grid-2.png" alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain'/>
                     <div>
                         <p className='grid-headtext'>Tech Stack</p>
-                        <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems. Additionally, I have experience working with Docker and Jenkins. I am proficient in MongoDB, PostgreSQL, and Firebase for data management. And, I have a strong grasp of REST APIs, GraphQL, WebSockets and Web3.
+                        <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems. Additionally, I have experience working with Docker and Jenkins. And, I have a strong grasp of REST APIs, GraphQL, WebSockets and Web3.
                         </p>
                     </div>
                 </div>
