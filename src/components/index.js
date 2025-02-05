@@ -1,6 +1,7 @@
 import Button from "./Button";
 import CanvasLoader from "./CanvasLoader";
 import Cube from "./Cube";
+import DemoComputer from "./DemoComputer";
 import HackerRoom from "./HackerRoom";
 import HeroCamera from "./HeroCamera";
 import ReactLogo from "./ReactLogo";
@@ -10,6 +11,7 @@ export {
     Button,
     CanvasLoader,
     Cube,
+    DemoComputer,
     HackerRoom,
     HeroCamera,
     ReactLogo,
