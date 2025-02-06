@@ -212,6 +212,43 @@ export const navLinks = [
         },
       ],
     },
+    {
+      title: 'Auto-Mobile Servicing',
+      desc: 'TorqueMasters Garage is a full-stack web application designed to provide comprehensive automobile services for both two-wheelers and four-wheelers. Users can book services, manage their profiles, view service history, and access membership plans.',
+      subdesc:
+        'Built using Java Server Pages (JSP) for the backend, with a PostgreSQL database, and ThreeJs with Vanilla JavaScript to filtering and communicate with the front-end and back-end.',
+      href: 'https://auto-mobile-servicing-production.up.railway.app/',
+      texture: '/textures/project/project5.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#0F0A09',
+        border: '0.2px solid #0F0A09',
+        boxShadow: '0px 0px 60px 0px #0F0A09',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Java',
+          path: '/assets/java.png',
+        },
+        {
+          id: 2,
+          name: 'JavaScript',
+          path: 'assets/js.png',
+        },
+        {
+          id: 3,
+          name: 'postgreSQL',
+          path: '/assets/Postgresql.png',
+        },
+        {
+          id: 4,
+          name: 'threejs',
+          path: '/assets/threejs.png',
+        },
+      ],
+    },
     // {
     //   title: 'Imaginify - AI Photo Manipulation App',
     //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
