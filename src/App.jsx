@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Clients, Contact, Hero, Navbar, Projects } from './sections'
+import { About, Clients, Contact, Footer, Hero, Navbar, Projects } from './sections'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Clients/>
       {/* <Work/> */}
       <Contact/>
+      <Footer/>
     </main>
   )
 }
