@@ -268,8 +268,8 @@ export const navLinks = [
       name: 'KWORK',
       pos: 'Freelancer',
       duration: '2024 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      title: "I specialize in full-stack development using the MERN stack and Java, building scalable, efficient web applications and software.",
       icon: '/assets/kwork.png',
       animation: 'victory',
-    },
+    }    
   ];
