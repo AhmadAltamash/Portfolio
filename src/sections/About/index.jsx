@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Globe from 'react-globe.gl'
-import { color } from 'three/tsl'
 import { Button } from '../../components'
 
 const About = () => {
@@ -15,9 +14,17 @@ const About = () => {
         }, 2000)
     }
 
-    const handleDownloadPDF = () => {
-        
-    }
+    // const handleDownloadPDF = () => {
+    //     console.log("Clicked")
+    //     const pdfUrl = "/Altamash Ahmad-resume-1.pdf";
+    //     const link = document.createElement("a");
+    //     link.href = pdfUrl;
+    //     link.download = "Altamash Ahmad-resume-1.pdf";
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
+    
 
   return (
     <section className='c-space my-20' id='about'>
@@ -66,7 +73,9 @@ const About = () => {
                     <div>
                         <p className='grid-headtext'>I can work remotely across most timezones.</p>
                         <p className='grid-subtext'>I'm based in Patna, Bihar. With remote work available.</p>
-                        <Button name="Download CV" isBeam containerClass="w-full mt-10" onClick={handleDownloadPDF}/>
+                        <a href="/Altamash-Ahmad-resume-1.pdf" download="Altamash-Ahmad-resume-1.pdf">
+                        <Button name="Download My CV" isBeam containerClass="w-full mt-10"/>
+                        </a>
                     </div>
                 </div>
             </div>
