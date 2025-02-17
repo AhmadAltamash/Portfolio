@@ -1,0 +1,19 @@
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+}
+.page1{
+    background: linear-gradient(#0e0d0d,#141414,#121111,#1b1b1b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2skill{
+    height: 15vh;
+    background-color: #ffffff;
+}
+.page3project{
+    height: 100vh;
+    background-color: #000000;
+}

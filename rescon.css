@@ -1,0 +1,110 @@
+@media screen and (max-width: 958px) {
+    header {
+        display: inline-block;
+    }
+ 
+    #navig {
+        display: inline-block;
+    }
+    #navig a {
+       margin: 0% 15px;
+       display: inline-block;
+       font-size: small;
+    }
+    header nav{
+       display: flex;
+       justify-content: center;
+    }
+    body{
+       margin: 0px;
+       padding: 0px;
+       font-size: 0.8rem;
+    }
+    .big {
+       font-size: 1rem;
+       margin-left: 40px;
+    }
+    #i{
+       font-size: 1.3rem;
+       padding: 0% 2%;
+    }
+    .out{
+       font-size: 2.5rem;
+       margin-left: 40px;
+    } 
+    header div p
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .conatin {
+      margin-top: 20px;
+      padding: 20px;
+      }
+    
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        background-size: contain;
+        width: 100%;
+    }
+ }
+ @media screen and (max-width:937px)
+{
+   header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  #navig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+  }
+  #navig a {
+      margin: 0px 15px;
+      font-size: 14px;
+      padding: 6px 9px;
+  }
+}
+ @media screen and (max-width: 537px) {
+   header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  #navig {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+  }
+  #navig a {
+      margin: 0px 8px;
+      font-size: 9px;
+      padding: 6px 9px;
+  }
+  .big
+  {
+   width: 100%;
+   margin-left: 0px;
+  }
+  header div{
+   width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .conatin {
+   padding: 20px;
+   }
+  footer{
+   height: 6vh;
+   width: 100vw;
+   }  
+}

@@ -15,6 +15,10 @@ const About = () => {
         }, 2000)
     }
 
+    const handleDownloadPDF = () => {
+        
+    }
+
   return (
     <section className='c-space my-20' id='about'>
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
@@ -62,7 +66,7 @@ const About = () => {
                     <div>
                         <p className='grid-headtext'>I can work remotely across most timezones.</p>
                         <p className='grid-subtext'>I'm based in Patna, Bihar. With remote work available.</p>
-                        <Button name="contact" isBeam containerClass="w-full mt-10" onClick={handleCopy}/>
+                        <Button name="Download CV" isBeam containerClass="w-full mt-10" onClick={handleDownloadPDF}/>
                     </div>
                 </div>
             </div>
